@@ -1,0 +1,235 @@
+# EESchema Netlist Version 1.1 created  7/10/2011 10:42:54 p.m.
+(
+ ( /4E8A5517 SM0805 C1 100nF
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /4E8A535A SM0805 C2 22pF
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /4E8A5369 SM0805 C3 22pF
+  ( 1 N-000025 )
+  ( 2 GND )
+ )
+ ( /4E8A5639 SM0805 C4 100nF
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /4E8A6E43 SM0805 C5 CP1
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4E8A6E4B SM0805 C6 CP1
+  ( 1 VCC )
+  ( 2 GND )
+ )
+ ( /4E8D6DC5 SM1206 D1 LED1
+  ( 1 N-000031 )
+  ( 2 GND )
+ )
+ ( /4E8D6DD1 SM1206 D2 LED2
+  ( 1 N-000028 )
+  ( 2 GND )
+ )
+ ( /4E8A532A TQFP32 IC1 ATMEGA8-AI
+  ( 1 /IRQ )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 VCC )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 N-000015 )
+  ( 8 N-000025 )
+  ( 9 /LED1 )
+  ( 10 /LED2 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 /CSN )
+  ( 14 /CE )
+  ( 15 /MOSI )
+  ( 16 /MISO )
+  ( 17 /SCK )
+  ( 18 N-000024 )
+  ( 19 ? )
+  ( 20 N-000023 )
+  ( 21 GND )
+  ( 22 ? )
+  ( 23 /SCE )
+  ( 24 /LCDRST )
+  ( 25 /D_C )
+  ( 26 N-000019 )
+  ( 27 ? )
+  ( 28 ? )
+  ( 29 /RST )
+  ( 30 /RX )
+  ( 31 /TX )
+  ( 32 /BTN1 )
+ )
+ ( /4E8A8906 SOT223 IC2 LM1117
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 N-000012 )
+ )
+ ( /4E8A5537 SM0805 L1 10uH
+  ( 1 N-000024 )
+  ( 2 VCC )
+ )
+ ( /4E8A5986 pin_array_3x2 P1 ISP
+  ( 1 /MISO )
+  ( 2 VCC )
+  ( 3 /SCK )
+  ( 4 /MOSI )
+  ( 5 /RST )
+  ( 6 GND )
+ )
+ ( /4E8A5B1C pin_array_4x2 P2 nRF24L01
+  ( 1 GND )
+  ( 2 VCC )
+  ( 3 /CE )
+  ( 4 /CSN )
+  ( 5 /SCK )
+  ( 6 /MOSI )
+  ( 7 /MISO )
+  ( 8 /IRQ )
+ )
+ ( /4E8A66DD PIN_ARRAY_2X1 P3 CONN_2
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /4E8D67D8 pin_array_8x1 P4 LCD
+  ( 1 VCC )
+  ( 2 GND )
+  ( 3 /SCE )
+  ( 4 /LCDRST )
+  ( 5 /D_C )
+  ( 6 /MOSI )
+  ( 7 /SCK )
+  ( 8 /LED )
+ )
+ ( /4E8D6EE9 PIN_ARRAY_3X1 P5 UART
+  ( 1 /TX )
+  ( 2 /RX )
+  ( 3 GND )
+ )
+ ( /4E8A5424 SM0805 R1 10k
+  ( 1 /RST )
+  ( 2 VCC )
+ )
+ ( /4E8D6C43 SM0805 R3 19k
+  ( 1 /BTN1 )
+  ( 2 VCC )
+ )
+ ( /4E8D6A8F SM0805 R4 2K5
+  ( 1 /LED )
+  ( 2 N-000019 )
+ )
+ ( /4E8D6DFD SM0805 R5 2K5
+  ( 1 N-000031 )
+  ( 2 /LED1 )
+ )
+ ( /4E8D6E00 SM0805 R6 2K5
+  ( 1 N-000028 )
+  ( 2 /LED2 )
+ )
+ ( /4E8D6C25 SMD_BUTTON SW1 RST
+  ( 1 /RST )
+  ( 2 GND )
+ )
+ ( /4E8D6C2D SMD_BUTTON SW2 BTN
+  ( 1 /BTN1 )
+  ( 2 GND )
+ )
+ ( /4E8A5337 HC-49V X1 8MHz
+  ( 1 N-000015 )
+  ( 2 N-000025 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component IC1
+ TQFP32
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
