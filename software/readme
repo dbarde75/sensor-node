@@ -1,0 +1,6 @@
+The software directory contains the embedded software for the host and node boards, as well as the host (PC) software.  
+The current status of the files in this directory can be found in the readme files of each sub directory.
+
+TO DO:
+- Provide more information on how to compile, and structure of software.
+- Licensing, copyright

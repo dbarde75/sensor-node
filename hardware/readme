@@ -1,0 +1,4 @@
+The hardware directory contains the circuit designs and is structured into the host and node boards.  
+The current status of the files in this directory can be found in the readme files of each sub directory.
+
+The hardware design will be completed using KiCad.
